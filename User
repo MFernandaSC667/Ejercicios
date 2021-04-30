@@ -1,0 +1,21 @@
+import { IUser } from "./IUser";
+
+{
+  class User implements IUser {
+      constructor(public email:string){
+          this.email = email;
+      }
+  }
+
+  function ObtenerCorreo (email:String){
+  var DirectoryA=[];
+  var v=[];
+  directory.forEach(con=> {
+    if (con.email == email){
+        v = {
+          "id": con.id 
+        }
+        directoryNew.push(v);
+    }
+  })
+}
